@@ -49,9 +49,10 @@ This project is licensed under the MIT License.
 
 Screenshots
 
-![Screenshot_2024-10-16_16_10_52](https://github.com/user-attachments/assets/ae0246c6-22c8-4e19-8b89-07949f64d0d7)
+![Screenshot_2024-10-16_16_13_08](https://github.com/user-attachments/assets/9d3e19d9-76f1-4fe8-be05-0f9b96088c1e)
 
-![Screenshot_2024-10-16_16_10_17](https://github.com/user-attachments/assets/1d621b9a-146e-4d83-9b7a-8d02a61ff649)
+
+![Screenshot_2024-10-16_16_13_21](https://github.com/user-attachments/assets/9f9e3469-9d74-46dc-97cc-bfabe0003a9a)
 
 
 [![bmc-button (2)](https://github.com/user-attachments/assets/8a994d82-5bf8-480e-9e64-728d5aba2e14)](https://ko-fi.com/dionabazi)
