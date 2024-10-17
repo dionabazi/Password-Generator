@@ -19,6 +19,10 @@ def generate_password(length, use_upper, use_lower, use_digits, use_symbols):
     password = ''.join(random.choice(characters) for _ in range(length))
     return password
 
+def save_password(password):
+    with open('passwordlist.txt', 'a') as file:
+        file.write(password + '\n')
+
 def main():
     parser = argparse.ArgumentParser(description='Generate a strong random password.')
     parser.add_argument('-l', '--length', type=int, default=12, help='Length of the password')
@@ -31,6 +35,10 @@ def main():
 
     password = generate_password(args.length, args.upper, args.lower, args.digits, args.symbols)
     print(f"Generated Password: {password}")
+
+    # Save the generated password to passwordlist.txt
+    save_password(password)
+    print("Password saved to passwordlist.txt.")
 
 if __name__ == "__main__":
     main()
